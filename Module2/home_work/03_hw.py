@@ -31,3 +31,10 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+cost = int(input("Введите ценик за единицу товара: "))
+num = cost * 21
+sort = cost
+while  cost != num:
+   print(cost, "rub.")
+   cost = cost + sort
+    
