@@ -8,3 +8,14 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+a = int(input("Число коров: "))
+
+if (a - 11) % 10 == 0 and a != 11 :
+    print(a, "корова")
+elif a == 12 or a == 13 or a == 14:
+    print(a, "коров")
+elif (a - 2) % 10 == 0 or (a - 3) % 10 == 0 or (a - 4) % 10 == 0:
+    print(a, "коровы")
+else:
+    print(a, "коров")
+    
