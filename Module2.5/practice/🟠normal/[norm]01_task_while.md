@@ -33,7 +33,11 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+num = int(input("Количетсво ступенек: "))
+num1 = 1 # Количество звездочек
+while num1 <= num:
+    print("*" * num1)
+    num1 += 1
 ```
 
 ---
